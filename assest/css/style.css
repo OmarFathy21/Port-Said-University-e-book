@@ -83,16 +83,16 @@ a {
 }
 .choose {
   float: left;
-  font-size: 33px;
+  font-size: 35px;
   letter-spacing: 2px;
   margin: 20px;
-  margin-left: 150px;
+  /* margin-left: 150px;  */
   color: #212529;
 }
 .btn-outline-success {
   min-width: 150px;
   margin-top: 120px;
-  margin-right: 60px;
+  /* margin-right: 60px; */
 
   font-size: 25px;
   font-weight: bolder;
@@ -104,17 +104,24 @@ a {
 }
 .icons ul li {
   margin-bottom: 15px;
-  border-left: 2px solid #198754;
 }
 .icons ul li .fa-facebook {
   color: rgb(59, 89, 152);
+  border-left: 3px solid #198754;
+  padding-left: 10px;
 }
 .icons ul li .fa-google {
   color: green;
+  border-left: 3px solid #198754;
+  padding-left: 10px;
 }
 .icons ul li .fa-twitter {
   color: rgb(29, 161, 242);
+  border-left: 3px solid #198754;
+  padding-left: 10px;
 }
 .icons ul li .fa-youtube {
   color: red;
+  border-left: 3px solid #198754;
+  padding-left: 7px;
 }
