@@ -1,0 +1,120 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: serif;
+  font-style: italic;
+}
+
+a {
+  text-decoration: none;
+  list-style: none;
+  letter-spacing: 4px;
+}
+/* .main-nav {
+  display: flex;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+} */
+.nav-item .nav-link {
+  font-size: 25px;
+}
+/* .main-nav li {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: relative;
+  margin: 10px;
+}
+.main-nav li a {
+  color: #f8f9fa;
+  font-size: 22px;
+  margin-right: 25px;
+}
+.main-nav li .active {
+  color: #0d6efd;
+}
+.main-nav li .About:hover {
+  color: #0d6efd;
+}
+.main-nav li .Contact:hover {
+  color: #0d6efd;
+} */
+
+.logo h1 {
+  color: #e9ecef;
+  font-style: italic;
+  font-weight: bolder;
+}
+
+.imge {
+  width: 180px;
+  box-shadow: 5px 5px 8px 5px #111922;
+}
+.form-select:focus {
+  box-shadow: none;
+}
+.form-select-lg {
+  text-align: center;
+  display: inline;
+  margin-right: 80px;
+}
+.row-copyright {
+  text-align: center;
+  background: #111922;
+}
+.row-copyright p {
+  padding: 5px;
+  font-size: 23px;
+  letter-spacing: 0.5px;
+  color: #fff;
+  text-align: center;
+  display: inline-block;
+}
+.head h1 {
+  text-align: center;
+  color: #212529;
+  height: 100px;
+  padding: 15px;
+  letter-spacing: 4px;
+  margin-bottom: 30px;
+}
+.choose {
+  float: left;
+  font-size: 33px;
+  letter-spacing: 2px;
+  margin: 20px;
+  margin-left: 150px;
+  color: #212529;
+}
+.btn-outline-success {
+  min-width: 150px;
+  margin-top: 120px;
+  margin-right: 60px;
+
+  font-size: 25px;
+  font-weight: bolder;
+}
+
+.icons ul {
+  list-style: none;
+  margin-top: 17px;
+}
+.icons ul li {
+  margin-bottom: 15px;
+  border-left: 2px solid #198754;
+}
+.icons ul li .fa-facebook {
+  color: rgb(59, 89, 152);
+}
+.icons ul li .fa-google {
+  color: green;
+}
+.icons ul li .fa-twitter {
+  color: rgb(29, 161, 242);
+}
+.icons ul li .fa-youtube {
+  color: red;
+}

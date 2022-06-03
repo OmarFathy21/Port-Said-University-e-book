@@ -1,0 +1,21 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    display: flex;
+    align-items: center;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    background-color: #f5f5f5;
+    text-align: center !important;
+    height: 100%;
+}
+.info {
+    box-shadow: 0px 0px 10px 2px rgb(0 0 0 / 10%);
+    padding: 10px;
+    width: 70%;
+    margin: auto;
+    margin-top: 100px;
+    height: 200px;
+    background-color: #f4f4f4;
+}

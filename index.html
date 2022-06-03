@@ -1,0 +1,177 @@
+        <!DOCTYPE html>
+        <html lang="en">
+        <head>
+            <meta charset="UTF-8">
+            <meta http-equiv="X-UA-Compatible" content="IE=edge">
+            <meta name="viewport" content="width=device-width, initial-scale=1.0">
+            <link rel="stylesheet" href="assest/css/bootstrap.css">
+            <link rel="stylesheet" href="assest/css/all.min.css">
+            <link rel="stylesheet" href="assest/css/style.css">
+            <title>P.S.U E-Books</title>
+        </head>
+        <body>
+            <!-- Start Navbar  -->
+            <!-- <div class="navbar navbar-dark bg-dark mb-3">
+                <div class="container">
+                    <div class="logo">
+                        <a href="">
+                        <h1>
+                            P.S.U
+                        </h1>
+                        </a>
+                    </div>
+            
+                    <div class="nav-links">
+                            <ul class="main-nav">
+                                <li>
+                                    <a href="" class="active">
+                                        Home
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="" class="About">
+                                        AboutUs
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="contact us/index.html" class="Contact">
+                                        ContactUs
+                                    </a>
+                                </li>
+                            </ul>
+                    </div>
+                    
+                </div>
+                </div> -->
+                
+                <nav class="navbar navbar-dark bg-dark navbar-expand-lg">
+                    <div class="container">
+                            <div class="logo">
+                                <a href="">
+                                <h1>
+                                    P.S.U
+                                </h1>
+                                </a>
+                            </div>
+                        
+                            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                                <i class="fa-solid fa-bars"></i>
+                            </button>
+                            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                                <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                                <li class="nav-item">
+                                    <a class="nav-link active" aria-current="page" href="#">Home</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#">About</a>   
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="contact us/index.html">Contact</a>   
+                                </li>
+                                </ul>
+                        </div>
+                    </nav>
+                        
+                <!-- End Navbar  -->
+
+                <section class="bg-white text-dark text-center pb-5" id="hero">
+                    <div class="container">
+                        <div>
+                            <div class="head">
+                    <h1>
+                        The E-Book Platform For Port-Said University
+                    </h1>
+                        <div class="row">
+                            <div class="col-lg-3">
+                                <div class="img">
+                                    <img  src="assest/img/IMG-20220326-WA0000.jpg" class="imge" alt="">
+                                </div>
+                            </div>
+                            <div class="col-lg-7">
+                                <p class="choose">Choose The Faculty</p>
+                                <select id="faculty_select" class="form-select form-select-lg" aria-label="form-select-lg example">
+                                    <option value="none" selected disabled>----</option>
+                                    <option value="Management">Tecnology Management And Information System</option>
+                                    <option value="Commerce">Commerce</option>
+                                    <option value="Art">Art</option>
+                                    <option value="Medicine">Medicine</option>
+                                    <option value="Pharmacy">Pharmacy</option>
+                                    <option value="Engineering">Engineering</option>
+                                </select>
+                                <!-- Tecnolgy/index.html -->
+                                <a href="" id="sign_link">
+                                    <button class="btn btn-outline-success lg ">
+                                        sign in
+                                    </button>
+                                </a>
+                            </div>
+                            
+                            <div class="col-lg-2 ">
+                                <div class="icons">
+                                <ul>
+                                <li>
+                                    <a href="">
+                                        <i class="fa-brands fa-facebook fa-2x"></i> 
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="">
+                                        <i class="fa-brands fa-google fa-2x"></i>
+                                    </a>
+                                </li>
+                                <li>
+                                <a href="">
+                                    <i class="fa-brands fa-twitter fa-2x"></i>
+                                </a>
+                                </li>
+                                <li>
+                                    <a href="">
+                                        <i class="fa-brands fa-youtube fa-2x"></i>
+                                    </a>
+                                </li>
+                                
+                                
+                            </ul>
+                        </div>
+                            </div>
+                        </div>
+                        </div>
+                
+                    </div>
+                    </div>
+                </section>
+
+                <div class="footer text-md-start pt-5">
+                        <div class="row-copyright">
+                        <p>
+                            All Right Are Save  © Project Work Team -2022 - P.S.U 
+                        </p>
+                        </div>
+                    </div>
+            <script>
+                let faculty_select = document.getElementById("faculty_select");
+                let sign_link = document.getElementById("sign_link");
+                sign_link.addEventListener("click" , ()=>{
+
+                    if(faculty_select.value == "Management"){
+                       sign_link.href = "Tecnolgy/index.html";
+                    }
+
+                    if(faculty_select.value == "Commerce" || faculty_select.value == "Art" || faculty_select.value == "Pharmacy" || faculty_select.value == "Engineering"){
+                        alert("your faculty will be added soon");
+                    }
+
+                    if(faculty_select.value == "Medicine"){
+                        sign_link.href = "(Medicine)حط لينك الصفحه اللي عايز الشخص يروح عليها لما يختار الكلمه دي";
+                    }
+
+                    if(faculty_select.value == "none"){
+                        alert("please select your faculty");
+                    }
+                    
+                })
+            </script>  
+            <script src="assest/js/bootstrap.bundle.min.js"></script>
+            <script src="assest/js/all.min.js"></script>
+        </body>
+        </html>

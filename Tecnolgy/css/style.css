@@ -1,0 +1,126 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family:serif;
+  font-style: italic; 
+}
+
+a {
+  text-decoration: none;
+  list-style: none;
+  letter-spacing: 4px;
+}
+.nav-item .nav-link {
+  font-size: 25px;
+}
+/* .main-nav {
+  display: flex;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+.main-nav li {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: relative;
+  margin: 10px;
+}
+.main-nav li a {
+  color: #f8f9fa;
+  font-size: 22px;
+  margin-right: 25px;
+}
+.main-nav li .active {
+  color:#0d6efd;
+}
+.main-nav li .About:hover{
+  color: #0d6efd;
+}
+.main-nav li .Contact:hover{
+  color: #0d6efd;
+} */
+
+.logo h1 {
+  color: #e9ecef;
+  font-style: italic; 
+  font-weight: bolder;
+}
+
+.imge {
+  float: left;
+  width: 220px;
+  height: 250px;
+  box-shadow: 5px 5px 8px 5px #111922;
+}
+
+.form-select-lg {
+  text-align: center;
+  width: 450px;
+  display: inline;
+  margin-right: 80px;
+
+}
+.row-copyright {
+  text-align: center;
+  background: #111922;
+}
+.row-copyright p {
+  padding: 5px;
+  font-size: 23px;
+  letter-spacing: 0.5px;
+  color: #fff;
+  text-align: center;
+  display: inline-block;
+}
+.head {
+  margin-top: 6.5rem !important;
+  
+}
+.head h1 {
+  text-align: left;
+  color: #212529;
+  padding: 15px;
+  font-size: 28px;
+  letter-spacing: 1px;
+  margin-top: 50px;
+  font-weight: bold;
+}
+
+.thelinks {
+  margin-top: 88px;
+}
+
+.btn-outline-success{
+  min-width: 150px;
+  margin-right:60px;
+  margin-bottom: 10px;
+  font-size: 25px;
+  font-weight: bolder;
+}
+
+
+.icons {
+  margin-top: 15px;
+}
+.icons ul {
+  list-style: none;
+}
+.icons ul li  {
+    margin-bottom: 15px;
+    border-left: 2px solid #198754;
+}
+.icons ul li .fa-facebook {
+  color: rgb(59, 89, 152);
+}
+.icons ul li .fa-google {
+  color: green;
+}
+.icons ul li .fa-twitter {
+  color: rgb(29, 161, 242);
+}
+.icons ul li .fa-youtube {
+  color: red;
+}

@@ -1,0 +1,77 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: serif;
+  font-style: italic;
+  background-color: #CCC;
+}
+.landing {
+  background-color: #fff;
+  margin: 40px;
+  box-shadow: 5px 5px 8px 5px #5a2d2d;
+}
+
+.info {
+  margin-top: 30px;
+}
+.info .btn {
+  margin-top: 20px;
+  margin-left: 15px;
+  min-width: 150px;
+  font-size: 25px;
+  font-style: italic;
+}
+.icons {
+  margin-top: 130px;
+}
+.icons ul {
+  list-style: none;
+  display: flex;
+}
+.icons ul li {
+  margin: 15px;
+  margin-bottom: 40px;
+}
+.icons ul li .fa-facebook {
+  color: rgb(49, 49, 251);
+}
+.icons ul li .fa-phone {
+  color: rgba(0, 0, 0, 0.616);
+}
+.icons ul li .fa-whatsapp {
+  color: rgb(0, 128, 0);
+}
+.info h2 {
+  margin-left: 10px;
+  padding-bottom: 40px;
+  letter-spacing: 2px;
+  font-size: 25px;
+  font-weight: 700;
+}
+.contact {
+    display: block;
+    padding: 18px;
+    border: none;
+    letter-spacing: 2px;
+    font-weight: bold;
+    margin-left: auto;
+    margin-top: 28px;
+    border-radius: 5% 0%;
+    text-align: center;
+}
+.contact .header h1 {
+  font-size: 25px;
+  margin-bottom: 20px;
+  font-weight: bold;
+}
+
+form .btn-success {
+  min-width: 100%;
+}
+.inputs .fa-arrow-down {
+  color:black;
+  text-align: center;
+  display: flexbox;
+}
